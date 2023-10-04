@@ -20,7 +20,7 @@ source $MDN/.bash_profile
 go version
 
 --------------------------------------
-cd $RHM
+cd $MDN
 rm -rf celestia-app
 git clone https://github.com/celestiaorg/celestia-app.git
 cd celestia-app
