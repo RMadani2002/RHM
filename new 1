@@ -46,7 +46,7 @@ CELESTIA_CHAIN="mamaki"
 ----------------------------------------------------------
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $MDN/.bash_profile
 echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $MDN/.bash_profile
-echo 'export CELESTIA_WALLET='${CELESTIA_WALLET} >> $RHM/.bash_profile
+echo 'export CELESTIA_WALLET='${CELESTIA_WALLET} >> $MDN/.bash_profile
 source $RHM/.bash_profile
 
 ------------------------------------------------
