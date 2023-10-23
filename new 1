@@ -120,7 +120,7 @@ tee $MDN/celestia-appd.service > /dev/null <<EOF
 EOF
 
 ---------------------------------------------------
-sudo mv $RHM/celestia-appd.service /etc/systemd/system/
+sudo mv $MDN/celestia-appd.service /etc/systemd/system/
 
 ----------------------------------------------------
 sudo systemctl enable celestia-appd
