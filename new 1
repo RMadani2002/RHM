@@ -24,7 +24,7 @@ cd $MDN
 rm -rf celestia-app
 git clone https://github.com/celestiaorg/celestia-app.git
 cd celestia-app
-git checkout v6.5.1
+git checkout v6.5.2
 make install
 
 -------------------------------------------------
